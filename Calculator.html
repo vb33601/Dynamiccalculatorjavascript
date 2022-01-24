@@ -60,16 +60,16 @@ function Calculate() {
 
   switch(operation) {
     case "Addition":
-        output = a+b;
+        output = +a + +b;
         break;
     case "Subtraction":
-        output = a-b;
+        output = +a - +b;
         break;
     case "Multiplication":
-        output = a*b;
+        output = +a * +b;
         break;
     case "Division":
-        output = a/b;
+        output = +a / +b;
         break;
     default:
         output = "Please enter the proper operation to perform";
